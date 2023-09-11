@@ -1,15 +1,18 @@
+import { HiArrowCircleDown } from "react-icons/hi";
+
 const SocialProof = () => {
   return (
-    <div className="flex w-full h-[30vh] bg-sky-900 text-white">
-      <div className="container mx-auto w-[80vw] px-4">
-        <p className="text-center text-3xl py-4">
-          We&apos;ve been helping small business since 2005
+    <div className="flex w-full min-h-[20vh] p-4 bg-slate-900 text-white">
+      <div className="container mx-auto w-[40vw] py-2 px-4">
+        <p className="socialProof flex flex-col justify-center items-center text-center text-3xl py-2">
+          We&apos;ll Help You Turn Your Brand Into A Success Story Find Out How
+          ?
+          <div className="h-[10px] w-full flex justify-center py-2">
+            <a href="#about">
+              <HiArrowCircleDown />
+            </a>
+          </div>
         </p>
-        <ul className="w-[80vw] px-4 flex flex-row justify-between items-center">
-          <li>Website</li>
-          <li>Branding</li>
-          <li>Online Marketing</li>
-        </ul>
       </div>
     </div>
   );

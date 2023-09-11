@@ -1,25 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.slide {
-  border: 1px solid green;
-}
-.carouselSlide {
-  height: 70vh;
-  width: 80%;
-  margin: 0 auto;
-  border: 2px solid red;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.title {
+  font-family: "Lilita One", cursive;
+  line-height: 1;
 }
 
-.carouselSlide h1 {
-  font-size: 300%;
-}
-.carouselSlide p {
-  font-size: 110%;
+.socialProof {
+  font-family: "Lilita One", cursive;
+  line-height: 1.2;
 }
